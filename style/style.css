@@ -145,6 +145,8 @@ header{
     width: 1200px;
     margin: auto;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 article{
@@ -164,7 +166,7 @@ article:before{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #AAB396;
+    background-color: #6746368e;
 }
 
 article h1{
@@ -182,13 +184,46 @@ article p{
 article img{
     width: 100%;
     margin-top: 20px;
-
 }
 
+/* Todo lo trabajado para el aside */
 
+.container-aside aside{
+    width: 320px;
+    border-right: 6px;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
 
+.container-aside aside img{
+    width: 100%;
+}
 
+.container-aside aside h2,
+.container-aside aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
 
+.container-aside aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: #674636;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.container-aside aside button:hover{
+    opacity: 0.9;
+}
 
 
 
